@@ -1,6 +1,6 @@
-import React, { JSX } from 'react';
+import React from 'react';
 
-const Contact: React.FC = (): JSX.Element => {
+function Contact() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#cad3ff] p-6">
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-lg mt-4">
@@ -8,7 +8,7 @@ const Contact: React.FC = (): JSX.Element => {
         
         <div className="space-y-4">
           <div>
-            <p className="text-primary"><strong>Name:</strong>Rupa Srilekha Kandula</p>
+            <p className="text-primary"><strong>Name:</strong> Rupa Srilekha Kandula</p>
           </div>
           
           <div>
@@ -18,12 +18,10 @@ const Contact: React.FC = (): JSX.Element => {
           <div>
             <p className="text-primary"><strong>Phone:</strong> +1 234 567 890</p>
           </div>
-          
-
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Contact;
