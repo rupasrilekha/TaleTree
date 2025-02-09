@@ -42,19 +42,42 @@ TaleTree is an innovative AI-powered web application built with NextUI, designed
 
 ##Technologies Used in TaleTree and Their Roles
 
-    NextUI – TaleTree is built using NextUI, a modern UI library that enhances responsiveness and design. It provides pre-styled components that ensure a smooth and visually appealing user experience across different devices.
+#NextUI 
+– TaleTree is built using NextUI, a modern UI library that enhances responsiveness and design. It provides pre-styled components that ensure a smooth and visually appealing user experience across different devices.
 
-    TypeScript – The application is developed in TypeScript, which adds static typing to JavaScript. This helps in catching errors early, improving code maintainability, and ensuring a robust development process.
+#TypeScript 
+– The application is developed in TypeScript, which adds static typing to JavaScript. This helps in catching errors early, improving code maintainability, and ensuring a robust development process.
 
-    Clerk – Clerk is used for authentication during the login process. It handles user sign-up, sign-in, and session management, ensuring secure access to the platform.
+#Clerk 
+– Clerk is used for authentication during the login process. It handles user sign-up, sign-in, and session management, ensuring secure access to the platform.
 
-    NextUI Components – The application uses NextUI components to enhance responsiveness and improve UI consistency. These components help in designing an intuitive and visually appealing interface.
+#NextUI Components 
+– The application uses NextUI components to enhance responsiveness and improve UI consistency. These components help in designing an intuitive and visually appealing interface.
 
-    PostgreSQL – TaleTree uses PostgreSQL as its database to store user information, generated stories, and other relevant data. PostgreSQL provides a scalable and reliable data storage solution.
+#PostgreSQL 
+– TaleTree uses PostgreSQL as its database to store user information, generated stories, and other relevant data. PostgreSQL provides a scalable and reliable data storage solution.
 
-    Drizzle ORM – Drizzle ORM is used as the database management tool. It simplifies database queries and interactions, making it easier to manage and retrieve data efficiently.
 
-    Gemini API – The Gemini API powers the AI-driven story generation in TaleTree. Based on the subject provided by the user, the API generates creative and age-appropriate stories, making storytelling engaging and interactive.
+##Working
+-Open the project in VS Code and run the command:
+        npm run dev
 
-    PayPal – For payments, PayPal is integrated into TaleTree, allowing users to purchase premium features securely. It ensures smooth and reliable transactions.
+- Once the project is running, the Home Page will appear as shown in the figure. The header consists of the following navigation options:
+
+    Home – Redirects to the main landing page.
+    Create Story – Takes users to the story creation page.
+    Explore Stories – Allows users to browse and discover generated stories.
+    Contact Us – Provides a way for users to reach out for support or inquiries.
+
+Additionally, the home page includes two main action buttons:
+    "Get Started" – Redirects users to the authentication page for login or signup.  
+    "Craft a Tale" – Takes users directly to the Create Story page to start generating AI-powered stories.
+
+  ![image](https://github.com/user-attachments/assets/4d247e71-784b-455a-b08d-447ededeaa94)
+
+  
+
+
+
+
 
